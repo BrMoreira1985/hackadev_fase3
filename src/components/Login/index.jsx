@@ -24,7 +24,7 @@ function Login() {
                   {" "}
                   <input type="checkbox" />Lembrar{" "}
                 </label>
-                <a href="#">Esqueceu a Senha?</a>
+                <a href="/#">Esqueceu a Senha?</a>
               </div>
 
               <div>
@@ -40,18 +40,18 @@ function Login() {
             <h3>Logar Com</h3>
             <ul className="ul">
               <li>
-                <a href="https://facebook.com" target="_blank">
-                  <img src={require("../../assets/Facebook.png")} />
+                <a rel="noreferrer" href="https://facebook.com" target="_blank">
+                  <img src={require("../../assets/Facebook.png")} alt="Facebook" />
                 </a>
               </li>
               <li>
-                <a href="https://google.com" target="_blank">
-                  <img src={require("../../assets/Google.png")} />
+                <a rel="noreferrer" href="https://google.com" target="_blank">
+                  <img src={require("../../assets/Google.png")} alt="Google" />
                 </a>
               </li>
               <li>
-                <a href="https:linkedin.com" target="_blank">
-                  <img src={require("../../assets/Linkedin.png")} />
+                <a rel="noreferrer" href="https:linkedin.com" target="_blank">
+                  <img src={require("../../assets/Linkedin.png")} alt="LinkedIn" />
                 </a>
               </li>
             </ul>
