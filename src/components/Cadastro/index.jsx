@@ -1,14 +1,13 @@
 import "./styles.css";
 import { useForm } from "react-hook-form";
 import InputMask from 'react-input-mask';
-import { Link } from "react-router-dom";
 
 function Cadastro() {
-  const { register, handleSubmit, setValue, setFocus } = useForm();
+  const { register, /*handleSubmit,*/ setValue, setFocus } = useForm();
 
-  const onSubmit = (e) => {
-    console.log(e);
-  };
+  // const onSubmit = (e) => {
+  //   console.log(e);
+  // };
 
   const checkCEP = (e) => {
     const cep = e.target.value.replace(/\D/g, "");
