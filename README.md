@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# HackaDev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [Projeto e-Commerce Ocean](https://ocean-moda-praia.netlify.app/)
 
-## Available Scripts
+Desafio em equipe aplicado pela instituição <b>Imã Learining</b>!
 
-In the project directory, you can run:
+Etapa 2 - Migrar o projeto para <b>ReactJS</b> (concluída) <br />
+          Adicionar funcionalidades de adição/exclusão de produtos no carrinho (concluída) <br />
 
-### `npm start`
+<br />
+Equipe: <br /><br />
+          Amanda Garcia Reis <br />
+          Adailton Ygor da Silva Santana <br />
+          Bruno Moreira Camilo da Silva <br />
+          Leandro de Paula Rodrigues <br />
+          Marcos Vinícios Pereira <br />
+          Rayan Teixeira Oliveira Leite <br />    
+          
+          
+Segue imagens com base em nosso projeto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://user-images.githubusercontent.com/104847461/187329306-5eac6cb5-073f-4f6d-af90-62e9bea35ffc.png)
+![image](https://user-images.githubusercontent.com/104847461/187329382-cc5706e4-b5ba-44b8-bab4-57ffec599971.png)
+![image](https://user-images.githubusercontent.com/104847461/187329439-5e126f32-ee68-40c3-b376-022b57b478b3.png)
+![image](https://user-images.githubusercontent.com/104847461/187329498-31c5eda3-224b-4f04-ae7a-d14c1833f1ea.png)
