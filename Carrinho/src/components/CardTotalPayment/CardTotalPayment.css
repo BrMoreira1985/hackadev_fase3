@@ -1,0 +1,94 @@
+/* Default Settings */
+:root {
+  --branco: #fff;
+  --azulmarinho: #1b2c58;
+  --azulpiscina: #478f98;
+  --amarelo: #fb8f01;
+  --rosacoral: #fd4e5b;
+  --laranja: #ff4d2f;
+  --cinzaescuro: #474a51;
+  --cor_fundo: #fffcf7;
+  --navbar: #e8ebea;
+}
+
+/* Total */
+.card-total {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+
+  background-color: var(--cor_fundo);
+  box-shadow: 0 2px 5px #ffeee7;
+}
+
+.second-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+/* Botão Continuar */
+.continue-button {
+  padding: 10px;
+  color: white;
+  background-color: #1b2c58;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  letter-spacing: 1.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.continue-button:hover {
+  cursor: pointer;
+  transition: all 0.05s;
+  background-color: #478f98;
+  transform: scale(1.1);
+}
+
+/* Pagamento */
+.card-payment {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+
+  background-color: var(--cor_fundo);
+  box-shadow: 0 2px 5px #ffeee7;
+}
+
+.payment-methods {
+  width: 50%;
+}
+
+@media only screen and (max-width: 754px) {
+  .card-total,
+  .card-payment {
+    min-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .card-total,
+  .card-payment {
+    width: 80%;
+  }
+}
