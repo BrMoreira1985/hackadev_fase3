@@ -34,7 +34,7 @@ input[type="submit"] {
   cursor: pointer;
   border-radius: 10px;
   border: none;
-  width: 26rem;
+  width: 100%;
   height: 35px;
   font-weight: bold;
   background-color: #1b2c58;
@@ -45,6 +45,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background: var(--azulpiscina);
   color: #fff;
+  transition: 0.6s;
 }
  
 

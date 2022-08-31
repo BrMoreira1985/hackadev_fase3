@@ -39,28 +39,31 @@ export default function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
       />
       <div className="user">
         <div className="conta">
-          <div className="icon-user">
-            <FontAwesomeIcon icon={faUserLarge} />
-          </div>
-          <div className>
-            <div className="minhaconta">Minha Conta</div>
-            <div className="cadastro">
-              <div className="entrar">
-              <Link to="/login">Entrar</Link>
-              </div>
-              <div>/</div>
-              <div className="cadastrar">
-              <Link to="/cadastro">Cadastrar</Link>
-              </div>
+          <div className="login-conta">
+            <div className="icon-user">
+              <FontAwesomeIcon icon={faUserLarge} />
             </div>
+            
+            <div className="minhaconta">Minha Conta</div>
+              <div className="cadastro">
+                <div className="entrar">
+                <Link to="/login">Entrar</Link>
+                </div>
+                <div>/</div>
+                <div className="cadastrar">
+                <Link to="/cadastro">Cadastrar</Link>
+                </div>
+              </div>
           </div>
         </div>
-        <div className="icon-cart" ref={LiRef}>
-          <div onClick={() => setIsOpen(!isOpen)} style={{ cursor: "pointer" }}>
-            <FontAwesomeIcon icon={faCartShopping} />
+        <div className="shopping-cart-container">
+          <div className="icon-cart" ref={LiRef}>
+            <div onClick={() => setIsOpen(!isOpen)} style={{ cursor: "pointer" }}>
+              <FontAwesomeIcon icon={faCartShopping} />
+           </div>
+           {isOpen && <Carrinho isOpen={isOpen} />}
           </div>
-          {isOpen && <Carrinho isOpen={isOpen} />}
-        </div>
+          </div>
       </div>
       <section>
         <RiMenu3Fill className="mobile" />

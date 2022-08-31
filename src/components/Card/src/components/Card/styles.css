@@ -172,11 +172,22 @@ h1 {
   }
 
   .teste {
+    height: auto;
     display: flex;
     justify-content: center;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .teste1 {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .teste1::-webkit-scrollbar {
+    display: none;
   }
 
   .teste2 {

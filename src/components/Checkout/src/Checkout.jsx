@@ -411,7 +411,6 @@ function Checkout() {
       <section className="App-section">
         <MainSection />
       </section>
-      <footer className="App-footer"></footer>
     </div>
   );
 }
