@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.section`
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
@@ -19,14 +19,50 @@ export const Container = styled.section`
     transform: translateY(50px);
 
     .user {
+        display: flex;
+        flex-direction: column;
         font-size: 1.4rem;
         align-items: center;
-        justify-content: space-batween;
-        height: 6rem;
+        justify-content: center;
+        height: 100%;
         width: 80%;
         margin: auto;
-        display: flex;
         color: var(--azulmarinho);
+    }
+
+    .conta {
+        position: absolute;
+        left: 60px;
+        top: 0;
+    }
+    
+
+    .icon-user{
+        transform: translate(-45px, 35px);
+    }
+
+
+
+    .shopping-cart-container{
+        position: absolute;
+        top: 35vh;
+        left: 15px;
+        display: flex;
+        flex-direction: column;
+        align-itens: center;
+        justify-content: center;
+    }
+
+    .icon-cart{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify content: center;
+        transform: translate(0,-100px);
+    }
+
+    .icon-cart span {
+        margin-left: 20px;
     }
 
     .svg {

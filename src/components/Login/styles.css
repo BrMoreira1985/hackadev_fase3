@@ -3,7 +3,7 @@
   justify-content: center;
   width: 100%;
   top: 120px;
-  padding-top: 195px;
+  padding-top: 150px;
 }
 
 .content-box {
@@ -34,7 +34,7 @@
   border-radius: 50%;
   margin: 0 7px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.6s;
 }
 
 .content-box .form-box .ul li:hover {
@@ -167,13 +167,14 @@ p {
 @media only screen and (max-width: 768px) {
   .container-login .content-box {
     width: 100%;
+  
   }
   
   .container-login .content-box .form-box {
     width: 100%;
     padding: 40px;
     background: white;
-    margin: 50px;
+    margin: 10px;
   }
   .container-login .content-box .form-box h3 {
     margin: 30px 0 10px;
@@ -182,8 +183,14 @@ p {
 @media only screen and (max-width: 667px) {
   .container-login .content-box .form-box .remember {
     flex-wrap: wrap;
+    
   }
   .container-login .content-box .form-box .remember a {
     margin-top: 20px;
+
   }
+  .content-box .form-box input[type="checkbox"] {
+    transform: scale(0.6);
+  }
+  
 }

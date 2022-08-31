@@ -10,7 +10,7 @@ export default function FaleConosco() {
                 <p>Campos marcados com * são de preenchimento obrigatório.</p>
                 <form className="formulario">
                     <div className='inputcontainer'>
-                        <input type="text" className="inputuser" required autoFocus></input>
+                        <input type="text" className="inputuser" required ></input>
                         <label htmlFor="nome" className="labelinput">*Nome</label>
                     </div>
                     <div className='inputcontainer'>

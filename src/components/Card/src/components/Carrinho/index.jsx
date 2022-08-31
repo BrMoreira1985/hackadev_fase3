@@ -33,7 +33,9 @@ function Carrinho({ excluir }) {
           <>
     <div className="Botao__checkout">
           <Link to="/checkout">
-            <button className="buttonCheckout">Checkout</button>
+            <div className="container-botao">
+            <button className="buttonCheckout">Finalizar Compra</button>
+            </div>
           </Link>
         </div>
     </>

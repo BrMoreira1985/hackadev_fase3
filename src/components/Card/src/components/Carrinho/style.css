@@ -19,7 +19,9 @@
 
 .CarrinhoItem__Container {
   display: flex;
+  flex-direction: row;
   gap: 10px;
+  width: fit-content;
 }
 
 .Infos {
@@ -68,19 +70,28 @@
 }
 
 .buttonCheckout {
+  margin-top: 10px;
   background-color: var(--azulmarinho);
   color: var(--branco);
   border: none;
   text-transform: uppercase;
   font-size: 12px;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
 }
 
 .buttonCheckout:hover {
   background: var(--azulpiscina);
 }
 
-@media only screen and (max-width: 754px) {
+@media only screen and (max-width: 750px) {
   .Carrinho__Container {
     position: unset;
+    width: 300px;
+  }
+
+  .CarrinhoItem__Container {
+    width: 300px;
   }
 }

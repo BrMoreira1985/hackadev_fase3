@@ -3,7 +3,7 @@ import "./styles.css";
 export default function Seguranca() {
     return (
         <>
-            <div className="texto">
+            <div className="textoseguranca">
                 <h3>Segurança</h3>
                 <p>
                     Com relação aos seus dados pessoais de endereçamento, pagamento e conteúdo 

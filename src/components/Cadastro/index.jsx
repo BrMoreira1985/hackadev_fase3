@@ -3,11 +3,11 @@ import { useForm } from "react-hook-form";
 import InputMask from 'react-input-mask';
 
 function Cadastro() {
-  const { register, /*handleSubmit,*/ setValue, setFocus } = useForm();
+  const { register, handleSubmit, setValue, setFocus } = useForm();
 
-  // const onSubmit = (e) => {
-  //   console.log(e);
-  // };
+   const onSubmit = (e) => {
+    console.log(e);
+   };
 
   const checkCEP = (e) => {
     const cep = e.target.value.replace(/\D/g, "");
@@ -28,7 +28,7 @@ function Cadastro() {
   return (
     <>
       <div className="form">
-        <form method="post" action="">
+      <form method="get" onSubmit={handleSubmit(onSubmit)}>
           <br />
           <h1>OCEAN CADASTRO</h1>
           <br />
@@ -78,25 +78,25 @@ function Cadastro() {
           <h1>ENDEREÇO</h1>
           <br />
           <br />
-          <label>Estado:</label>
-          <input type="text" {...register("uf")} />
-          <label>Cidade:</label>
-          <input id="cidade" type="text" placeholder="" {...register("city")}/>
-          <br />
-          <br />
           <label>CEP:</label>
           <InputMask id="cep" type="text" placeholder="" mask="99.999-999" maskChar=" " {...register("cep")}
             onBlur={checkCEP}/>
+            <br />
+          <label>Estado:</label>
+          <input type="text" {...register("uf")} />
+          <br />
+          <label>Cidade:</label>
+          <input id="cidade" type="text" placeholder="" {...register("city")}/>
+          <br />
           <label>Bairro:</label>
           <input id="bairro" type="text" placeholder="" {...register("neighborhood")}/>
           <br />
-          <br />
           <label>Rua:</label>
           <input type="text" size="30" placeholder="Logradouro"  {...register("address")}/>
+          <br />
           <label>Número:</label>
           <input id="numero" type="text" minlength="5"
             maxlength="5" size="5" placeholder="" {...register("addressNumber")}/>
-          <br />
           <br />
           <label>Complemento:</label>
           <input type="text" size="30" placeholder="Andar, Apartamento,Bloco" />
