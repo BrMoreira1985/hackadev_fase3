@@ -8,7 +8,7 @@ import IconPg4 from "./checkout-icons/mercadopago-icon.png";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Costumer from "./data/Costumer";
-import ShoppingBag from "./data/ShoppingBag"
+import ShoppingBag from "./data/ShoppingBag";
 
 Modal.setAppElement("#root");
 
@@ -70,7 +70,7 @@ const ChangeAddress = ({
           </div>
           <div className="line">
             <TextField placeholder={"CEP"} />
-            <TextField placeholder={"Cicade"} />
+            <TextField placeholder={"Cidade"} />
             <TextField placeholder={"Estado"} />
           </div>
         </div>
