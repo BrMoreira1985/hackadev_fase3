@@ -9,12 +9,13 @@ export function CarrinhoContextProvider({ children }) {
 
   function adicionarItem(value, roupa) {
     let NovaRoupa = copia(roupa);
-    setSelectItens((prev) => [...prev, { ...NovaRoupa, selectSize: value }]);
+    setSelectItens((prev) => [...prev, { ...roupa, selectSize: value }]);
+    console.log(selectItens)
   }
 
   function excluir(index) {
     console.log(index)
-    setSelectItens(selectItens?.filter((NovaRoupa, key) => NovaRoupa.id !== index));
+    setSelectItens(selectItens?.filter((roupa, key) => roupa.id !== index));
   }
 
   function copia (roupa){
