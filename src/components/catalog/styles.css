@@ -99,6 +99,10 @@
   #catalog-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  #catalog .catalog-image {
+    width: 70px !important;
+  }
 }
 
 @media only screen and (max-width: 754px) {
@@ -153,6 +157,6 @@
   }
 
   #catalog .catalog-image {
-    width: 75px;
+    width: 140px;
   }
 }

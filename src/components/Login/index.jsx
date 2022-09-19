@@ -41,17 +41,17 @@ function Login() {
             <ul className="ul">
               <li>
                 <a rel="noreferrer" href="https://facebook.com" target="_blank">
-                  <img src={require("../../assets/Facebook.png")} alt="Facebook" />
+                  <img src="/static/media/Facebook.png" alt="Facebook" />
                 </a>
               </li>
               <li>
                 <a rel="noreferrer" href="https://google.com" target="_blank">
-                  <img src={require("../../assets/Google.png")} alt="Google" />
+                  <img src="/static/media/Google.png" alt="Google" />
                 </a>
               </li>
               <li>
                 <a rel="noreferrer" href="https:linkedin.com" target="_blank">
-                  <img src={require("../../assets/Linkedin.png")} alt="LinkedIn" />
+                  <img src="/static/media/Linkedin.png" alt="LinkedIn" />
                 </a>
               </li>
             </ul>

@@ -1,17 +1,17 @@
 import { Routes, Route } from "react-router-dom";
-import Showcase from "./components/showcase";
-import Catalog from "./components/catalog";
-import Voltar from "./components/voltar/index";
+import Showcase from "./components/Showcase";
+import Catalog from "./components/Catalog";
+import Voltar from "./components/Voltar";
 import Quemsomos from "./pages/quemsomos";
 import Seguranca from "./pages/seguranca";
 import Envio from "./pages/envio";
 import TrocaeDevolucao from "./pages/trocaedevolucao";
 import Cuidados from "./pages/cuidados";
 import FaleConosco from "./pages/faleconosco";
-import Login from "./components/Login/index";
-import Cadastro from "./components/Cadastro/index";
-import Cards from "./components/Card/src/Cards";
-import Checkout from "./components/Checkout/src/Checkout";
+import Login from "./components/Login";
+import Cadastro from "./components/Cadastro";
+import Cards from "./components/Cards/Cards";
+import Checkout from "./components/Checkout";
 
 export default function Rotas() {
   return (

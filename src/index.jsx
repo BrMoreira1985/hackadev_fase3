@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './app';
-import {CarrinhoContextProvider} from "./components/Card/src/context/carrinhoProdutos"
+import { CarrinhoContextProvider } from "./components/Context/carrinhoProdutos"
 
 import './index.css';
 

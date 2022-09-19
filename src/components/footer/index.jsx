@@ -12,7 +12,7 @@ export default function Footer() {
         <footer id="footer">
             <div id="footer-container">
                 <div>
-                    <Link to="/"><img src={require("../../assets/Ocean_logo.png")} className="logo" alt="Logo" onClick={scrollToTop} /></Link>
+                    <Link to="/"><img src="/static/media/Ocean_logo.png" className="logo" alt="Logo" onClick={scrollToTop} /></Link>
                 </div>
         
                 <div className="footer-content">
@@ -51,9 +51,9 @@ export default function Footer() {
                     </ul>
         
                     <div className="socials">
-                        <a rel="noreferrer" href="https://instagram.com" target="_blank"><img src={require("../../assets/Instagram.png")} alt="" /></a>              
-                        <a rel="noreferrer" href="https://facebook.com" target="_blank"><img src={require("../../assets/Facebook.png")} alt="" /></a>
-                        <a rel="noreferrer" href="https://twitter.com" target="_blank"><img src={require("../../assets/Twitter.png")} alt="" /></a>
+                        <a rel="noreferrer" href="https://instagram.com" target="_blank"><img src="/static/media/Instagram.png" alt="" /></a>              
+                        <a rel="noreferrer" href="https://facebook.com" target="_blank"><img src="/static/media/Facebook.png" alt="" /></a>
+                        <a rel="noreferrer" href="https://twitter.com" target="_blank"><img src="/static/media/Twitter.png" alt="" /></a>
                     </div>
         
                 </div>

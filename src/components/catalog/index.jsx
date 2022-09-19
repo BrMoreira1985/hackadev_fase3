@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { animateScroll as scroll } from "react-scroll";
-import "../showcase/index";
+import "../Showcase/index";
 import "./styles.css";
 
 export default function Catalog() {
@@ -15,7 +15,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/1" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Fundo do Mar desc.png")}
+                src="/static/media/Fundo do Mar desc.png"
                 alt="Catag"
                 className="catalog-image"
               />
@@ -38,7 +38,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/2" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Tiras.png")}
+                src="/static/media/Tiras.png"
                 alt="Catag"
                 className="catalog-image"
               />
@@ -58,7 +58,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/3" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Croche.png")}
+                src="/static/media/Croche.png"
                 alt="Catag"
                 className="catalog-image"
               />
@@ -78,7 +78,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/4" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Mozaico.png")}
+                src="/static/media/Mozaico.png"
                 alt="Catag"
                 className="catalog-image"
               />
@@ -98,7 +98,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/5" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Babado.png")}
+                src="/static/media/Babado.png"
                 alt="Catag"
                 className="catalog-image"
               />
@@ -118,7 +118,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/6" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Ombro a Ombro.png")}
+                src="/static/media/Ombro a Ombro.png"
                 alt="Catag"
                 className="catalog-image"
               />
@@ -138,7 +138,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/7" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Animal Print desc.png")}
+                src="/static/media/Animal Print desc.png"
                 alt="Catag"
                 className="catalog-image"
               />
@@ -161,7 +161,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/8" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Floral desc.png")}
+                src="/static/media/Floral desc.png"
                 alt="Catag"
                 className="catalog-image"
               />
@@ -184,7 +184,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/9" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Camisa desc.png")}
+                src="/static/media/Camisa desc.png"
                 alt="Catag"
                 className="catalog-image"
               />
@@ -207,7 +207,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/10" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Listrado.png")}
+                src="/static/media/Listrado.png"
                 alt="Catag"
                 className="catalog-image"
               />
@@ -227,7 +227,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/11" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Lisa.png")}
+                src="/static/media/Lisa.png"
                 alt="Catag"
                 className="catalog-image"
               />
@@ -247,7 +247,7 @@ export default function Catalog() {
           <div className="image">
             <Link to="/card/12" onClick={scrollToTop}>
               <img
-                src={require("../../assets/Abstrata.png")}
+                src="/static/media/Abstrata.png"
                 alt="Catag"
                 className="catalog-image"
               />

@@ -1,5 +1,6 @@
 #footer {
     background-color: var(--navbar);
+    width: 100%;
     color: var(--branco);
     display: flex;
     justify-content: space-between;

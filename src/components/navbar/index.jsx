@@ -10,8 +10,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { RiMenu3Fill } from "react-icons/ri";
 import { useState, useRef, useEffect } from "react";
-import MenuMobile from "../menumobile";
-import Carrinho from "../Card/src/components/Carrinho/index";
+import MenuMobile from "../MenuMobile";
+import Carrinho from "../Carrinho";
 
 export default function Navbar() {
   const [menuIsVisible, setMenuIsVisible] = useState(false);
@@ -46,7 +46,7 @@ export default function Navbar() {
           <div>
             <Link to="/">
               <img
-                src={require("../../assets/Ocean_logo.png")}
+                src="/static/media/Ocean_logo.png"
                 className="logo"
                 alt="Logo"
                 onClick={scrollToTop}
@@ -76,11 +76,11 @@ export default function Navbar() {
               <div className>
                 <div className="minhaconta">Minha Conta</div>
                 <div className="cadastro">
-                  <Link to="/login">
+                  <Link to="/login" onClick={scrollToTop}>
                     <div className="entrar">Entrar</div>
                   </Link>
                   <div>/</div>
-                  <Link to="/cadastro">
+                  <Link to="/cadastro" onClick={scrollToTop}>
                     <div className="cadastrar">Cadastrar</div>
                   </Link>
                 </div>

@@ -11,7 +11,7 @@ export default function Showcase() {
             smooth={true} 
             offset={-88} 
             duration={500}>
-                <a href="#catalog" className="btn" id="btn">Ver coleção 2022</a>
+                <button className="btn" id="btn">Ver coleção 2022</button>
             </Link>
         </header>
     );

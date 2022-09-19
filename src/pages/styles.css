@@ -1,5 +1,5 @@
 .texto {
-  height: 75vh;
+  height: 65vh;
   color: var(--azulmarinho);
 }
 .texto h3 {
@@ -18,7 +18,8 @@
 }
 
 .textoseguranca {
-  height: 90vh;
+  height: 64.5vh;
+  min-height: 75%;
   color: var(--azulmarinho);
 }
 .textoseguranca h3 {
@@ -59,6 +60,7 @@
 .textocuidados {
   height: auto;
   color: var(--azulmarinho);
+  padding-bottom: 20px;
 }
 
 .textocuidados h3 {
@@ -170,6 +172,17 @@ input {
 }
 
 /* Mobile First */
+@media only screen and (max-width: 654px) {
+  .texto p,
+  .textoseguranca p,
+  .textocuidados p,
+  .textoFaleConosco p,
+  .textoTrocaeDevolucao p {
+    font-size: 0.5rem !important;
+  }
+}
+
+
 @media only screen and (max-width: 1024px) {
   .texto {
     font-size: 0.7rem;
@@ -178,10 +191,10 @@ input {
   }
 
   .textoTrocaeDevolucao {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 
   .textoFaleConosco {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }

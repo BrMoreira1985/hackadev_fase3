@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserLarge, faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { RiMenu3Fill } from "react-icons/ri";
 import { useEffect, useState, useRef } from "react";
-import Carrinho from "../Card/src/components/Carrinho/index";
+import Carrinho from "../Carrinho";
 import {Link} from "react-router-dom"
 
 export default function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
